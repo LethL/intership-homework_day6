@@ -85,7 +85,7 @@ class updateTaskRequest extends TaskRequest {
       console.log(responseBody);
       return Promise.resolve();
     } else {
-      console.log(`таск ид: ${randomTask - 1} не найден`);
+      console.log(`таск ид: ${randomTask - 1} не найден для обновления`);
       return;
     }
   }
@@ -99,7 +99,7 @@ class deleteTaskRequest extends TaskRequest {
       console.log(`таск ид: ${randomTask + 1} удален`);
       return Promise.resolve();
     } else {
-      console.log(`таск ид: ${randomTask + 1} не найден`);
+      console.log(`таск ид: ${randomTask + 1} не найден для удаления`);
       return;
     }
   }
