@@ -1,1 +1,1 @@
-# intership-homework_day6
+# typescript fetch requests
